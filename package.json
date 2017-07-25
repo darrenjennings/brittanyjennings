@@ -1,25 +1,15 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.1.2",
-  "description": "A sample Node.js app using Express 4",
+  "name": "brittany-jennings",
+  "version": "0.1.0",
+  "description": "Profile of Brittany Jennings, cellist.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "next",
+    "build": "next build && next export"
   },
   "dependencies": {
-    "express": "~4.9.x"
-  },
-  "engines": {
-    "node": "0.10.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
-  },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "license": "MIT"
+    "next": "beta",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
 }
