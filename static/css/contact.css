@@ -1,0 +1,103 @@
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+/* Centre the page */
+.body {
+    display:block;
+    margin:0 auto;
+    width:400px;
+	font-family: 
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:350px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	font-family: 'IM Fell English', serif;
+	width:380px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+.message{
+	height:27px;
+	-o-transition: all 1s;
+         -moz-transition: all 1s;
+         -webkit-transition: all 1s;
+         transition: all .6s;
+	-webkit-transition-delay: all 1s;
+	-webkit-transition-timing-function:ease-out 1s; 
+}
+.message:focus{
+	-o-transition: all 1s;
+         -moz-transition: all 1s;
+         -webkit-transition: all 1s;
+         transition: all .6s;
+	height:100px;
+	-webkit-transition-delay: all 1s;
+	-webkit-transition-timing-function:ease-out 1s; 
+}
+
+
+input, textarea {
+    width:300px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #CE5858;
+}
+
+#submit { 
+    margin-top:20px;
+    padding: 5px;
+    width:127px;
+    height:38px;
+    border:1px solid #C0C0C0;
+    border-radius:5px; 
+}
+
+	#submit:hover {
+		color:red; background:#DEDEDE;
+  	-o-transition:color .6s ease-out, background .3s ease-in;
+  	-ms-transition:color .6s ease-out, background .3s ease-in;
+  	-moz-transition:color .6s ease-out, background .3s ease-in;
+  	-webkit-transition:color .6s ease-out, background .3s ease-in;
+  	transition:color .2s ease-out, background .3s ease-in;
+	}
+#reset {
+    padding: 5px;
+    width:127px;
+    height:38px;
+    border:1px solid #C0C0C0;
+    margin-top:20px;
+    cursor:pointer;
+}
+	#reset:hover {
+color:red; background:#DEDEDE;
+  	-o-transition:color .6s ease-out, background .3s ease-in;
+  	-ms-transition:color .6s ease-out, background .3s ease-in;
+  	-moz-transition:color .6s ease-out, background .3s ease-in;
+  	-webkit-transition:color .6s ease-out, background .3s ease-in;
+  	transition:color .2s ease-out, background .3s ease-in;
+	}
