@@ -12,7 +12,7 @@ export default () =>
       <a href="mailto:b.annejarboe@gmail.com">
         <img
           height="30px"
-          src="static/svg/envelope.svg"
+          src="/static/svg/envelope.svg"
           style={{ padding: "10px" }}
         />
         b.annejarboe@gmail.com
@@ -22,7 +22,7 @@ export default () =>
         <img
           style={{ padding: "10px" }}
           height="30px"
-          src="static/svg/insta.svg"
+          src="/static/svg/insta.svg"
         />
         instagram
       </a>
@@ -31,7 +31,7 @@ export default () =>
         <img
           style={{ padding: "10px" }}
           height="30px"
-          src="static/svg/twitter.svg"
+          src="/static/svg/twitter.svg"
         />
         twitter
       </a>

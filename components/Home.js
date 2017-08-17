@@ -1,10 +1,11 @@
 import React from "react";
+import Link from "next/link";
 
 const Home = () =>
   <div className="outerblock">
     <div className="innerblock">
       <div className="mainlogo">
-        <img className="imgLogo" src="static/img/celloshot.jpg" />
+        <img className="imgLogo" src="/static/img/celloshot.jpg" />
       </div>
       <hr />
       <p>
@@ -72,9 +73,11 @@ const Home = () =>
       Allemande
     </span>
     <div style={{ textAlign: "center", margin: "0 auto", padding: "20px" }}>
-      <a style={{ padding: "20px" }} href="/contact">
-        <img height="30px" src="static/svg/contact.svg" /> Contact Me!
-      </a>
+      <Link style={{ padding: "20px" }} href="/contact">
+        <a>
+          <img height="30px" src="/static/svg/contact.svg" /> Contact Me!
+        </a>
+      </Link>
     </div>
   </div>;
 
