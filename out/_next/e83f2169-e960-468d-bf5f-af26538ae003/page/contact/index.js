@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/contact', function() {
+            var comp = module.exports=webpackJsonp([5],{331:function(e,t,a){e.exports=a(332)},332:function(e,t,a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var n=a(9),r=l(n),i=a(70),s=(l(i),a(166)),c=l(s);t.default=function(){return r.default.createElement("div",null,r.default.createElement(c.default,{title:"Contact"}),r.default.createElement("div",{className:"body-container",style:{textAlign:"left",padding:"10px"}},r.default.createElement("a",{href:"mailto:b.annejarboe@gmail.com"},r.default.createElement("img",{height:"30px",src:"static/svg/envelope.svg",style:{padding:"10px"}}),"b.annejarboe@gmail.com"),r.default.createElement("br",null),r.default.createElement("a",{href:"https://www.instagram.com/bajennings",target:"_blank"},r.default.createElement("img",{style:{padding:"10px"},height:"30px",src:"static/svg/insta.svg"}),"instagram"),r.default.createElement("br",null),r.default.createElement("a",{href:"https://www.twitter.com/littlestjarboe",target:"_blank"},r.default.createElement("img",{style:{padding:"10px"},height:"30px",src:"static/svg/twitter.svg"}),"twitter")))}}},[331]);
+            return { page: comp.default }
+          })
+        

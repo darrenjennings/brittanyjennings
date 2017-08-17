@@ -8,6 +8,7 @@
     "build": "next build && next export"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "next": "beta",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"

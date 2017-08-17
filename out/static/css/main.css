@@ -6,7 +6,7 @@
  */
 @font-face {
   font-family: 'IMFellEnglishPRO';
-  src: url("http://www.thecellobelle.com/fonts/IMFeENit29C.otf");
+  src: url("/fonts/IMFeENit29C.otf");
 }
 .body-container {
   max-width: 497px;
@@ -14,6 +14,12 @@
   text-align: center;
   margin: 0 auto;
 }
+.imgLogo {
+  margin: 0 auto;
+  display: block;
+  width: 75%;
+}
+
 a {
   text-decoration: none;
   color: #323232;
@@ -56,8 +62,4 @@ p {
 .innerblock {
   text-align: left;
   display: inherit;
-}
-
-.imgLogo {
-  width: 100%;
 }
