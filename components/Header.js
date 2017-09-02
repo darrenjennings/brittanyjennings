@@ -16,13 +16,16 @@ export default props =>
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       />
+      <style>
+      @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+      </style>
     </Head>
     <div className="body-container">
-      <Link href="/" style={{ color: "#323232" }}>
+      <Link href="/">
         <a>
           <p>
             <img src="/static/img/pinetrees.png" />
-            <i>Brittany Anne Jarboe Jennings</i>
+            <span className="title">Brittany Anne Jarboe Jennings</span>
             <img src="/static/img/pinetrees2.png" />
           </p>
         </a>

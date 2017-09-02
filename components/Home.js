@@ -5,7 +5,7 @@ const Home = () =>
   <div className="outerblock">
     <div className="innerblock">
       <div className="mainlogo">
-        <img className="imgLogo" src="/static/img/celloshot.jpg" />
+        <img className="imgLogo" src="/static/img/cellos.png" />
       </div>
       <hr />
       <p>
@@ -54,7 +54,7 @@ const Home = () =>
       <hr />
       <i>
         <div style={{ textAlign: "right" }}>
-          "The spirit of the music is the only thing which<br /> can rightfully
+          "The spirit of the music is the only thing which can rightfully
           dictate physical action on the cello."
           <br /> William Pleeth, Cellist and Teacher
         </div>
@@ -73,7 +73,7 @@ const Home = () =>
       Allemande
     </span>
     <div style={{ textAlign: "center", margin: "0 auto", padding: "20px" }}>
-      <Link style={{ padding: "20px" }} href="/contact">
+      <Link href="/contact">
         <a>
           <img height="30px" src="/static/svg/contact.svg" /> Contact Me!
         </a>

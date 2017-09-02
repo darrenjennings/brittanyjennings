@@ -26,14 +26,5 @@ export default () =>
         />
         instagram
       </a>
-      <br />
-      <a href="https://www.twitter.com/littlestjarboe" target="_blank">
-        <img
-          style={{ padding: "10px" }}
-          height="30px"
-          src="/static/svg/twitter.svg"
-        />
-        twitter
-      </a>
     </div>
   </div>;

@@ -2,6 +2,12 @@
 
 Profile page for Brittany Jennings, the moon of my life.
 
+## Setup
+
+```
+yarn install
+```
+
 ## Running
 
 ```

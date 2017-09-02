@@ -8,9 +8,34 @@
   font-family: 'IMFellEnglishPRO';
   src: url("/fonts/IMFeENit29C.otf");
 }
+
+@font-face {
+  font-family: 'Forum';
+  src: url("https://fonts.googleapis.com/css?family=Forum");
+}
+@font-face {
+  font-family: 'Josefin Slab', serif;
+  src: url("https://fonts.googleapis.com/css?family=Josefin+Slab");
+}
+
+body{
+  font-family: monospace, serif !important; 
+  font-weight: 400;
+}
+.title{
+  font-family: serif;
+  font-style: italic;
+  color: #4c4c4c;
+}
+
+.title:hover{
+  font-family: initial;
+  color: #66CDAA;
+}
+
 .body-container {
   max-width: 497px;
-  min-width: 375px;
+  min-width: 365px;
   text-align: center;
   margin: 0 auto;
 }
@@ -27,16 +52,16 @@ a {
 
 /* unvisited link */
 a:link {
-  color: #a52a2a;
+  color: #20B2AA;
 }
 a:visited {
-  color: #a52a2a;
+  color: #20B2AA;
 } /* visited link */
 a:active {
-  color: #0000ff;
+  color: #20B2AA;
 } /* selected link */
 a:hover {
-  color: red;
+  color: #66CDAA;
   text-decoration: none;
   font-weight: none;
 }
