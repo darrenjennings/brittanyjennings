@@ -2,22 +2,20 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 
-export default props =>
+export default props => (
   <div>
     <Head>
-      <title>
-        {props.title ? `${props.title} - ` : ""}Brittany Jennings
-      </title>
+      <title>{props.title ? `${props.title} - ` : ""}Brittany Jennings</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="shortcut icon" href="/static/favicon.ico" />
       <link rel="stylesheet" href="/static/css/html5.css" />
-      <link rel="stylesheet" href="/static/css/main.css" />
+      <link rel="stylesheet" href="/static/css/main.css?v=1234" />
       <link
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       />
       <style>
-      @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+        @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
       </style>
     </Head>
     <div className="body-container">
@@ -32,4 +30,5 @@ export default props =>
       </Link>
       <hr />
     </div>
-  </div>;
+  </div>
+);

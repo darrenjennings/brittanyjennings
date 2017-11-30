@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Header from "../components/Header";
 
-export default () =>
+export default () => (
   <div>
     <Header title="Contact" />
     <div
@@ -26,5 +26,7 @@ export default () =>
         />
         instagram
       </a>
+      <img src="/static/img/brittany.jpg" className="about-img" />
     </div>
-  </div>;
+  </div>
+);

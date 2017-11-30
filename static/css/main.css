@@ -5,40 +5,58 @@
  * Fonts
  */
 @font-face {
-  font-family: 'IMFellEnglishPRO';
+  font-family: "IMFellEnglishPRO";
   src: url("/fonts/IMFeENit29C.otf");
 }
 
 @font-face {
-  font-family: 'Forum';
+  font-family: "Forum";
   src: url("https://fonts.googleapis.com/css?family=Forum");
 }
 @font-face {
-  font-family: 'Josefin Slab', serif;
+  font-family: "Josefin Slab", serif;
   src: url("https://fonts.googleapis.com/css?family=Josefin+Slab");
 }
 
-body{
-  font-family: monospace, serif !important; 
+body {
+  font-family: monospace, serif !important;
   font-weight: 400;
+  margin: 0;
 }
-.title{
+.title {
   font-family: serif;
   font-style: italic;
   color: #4c4c4c;
 }
 
-.title:hover{
+.title:hover {
   font-family: initial;
-  color: #66CDAA;
+  color: #66cdaa;
 }
 
 .body-container {
+  padding: 10px;
   max-width: 497px;
   min-width: 365px;
   text-align: center;
   margin: 0 auto;
 }
+
+.about-img {
+  width: 100%;
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgba(0, 0, 0, 1)),
+    color-stop(0.35, rgba(0, 0, 0, 1)),
+    color-stop(0.5, rgba(0, 0, 0, 1)),
+    color-stop(0.75, rgba(0, 0, 0, 1)),
+    color-stop(0.85, rgba(0, 0, 0, 0)),
+    color-stop(1, rgba(0, 0, 0, 0))
+  );
+}
+
 .imgLogo {
   margin: 0 auto;
   display: block;
@@ -52,16 +70,16 @@ a {
 
 /* unvisited link */
 a:link {
-  color: #20B2AA;
+  color: #20b2aa;
 }
 a:visited {
-  color: #20B2AA;
+  color: #20b2aa;
 } /* visited link */
 a:active {
-  color: #20B2AA;
+  color: #20b2aa;
 } /* selected link */
 a:hover {
-  color: #66CDAA;
+  color: #66cdaa;
   text-decoration: none;
   font-weight: none;
 }
@@ -71,7 +89,7 @@ h1 {
   margin-right: auto;
   display: inline;
   padding: 3px;
-  font-family: 'IM Fell English', serif;
+  font-family: "IM Fell English", serif;
 }
 
 p {
@@ -87,4 +105,8 @@ p {
 .innerblock {
   text-align: left;
   display: inherit;
+}
+
+blockquote {
+  margin: 1em 20px;
 }
