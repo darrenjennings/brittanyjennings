@@ -18,7 +18,7 @@ export default () => (
         b.annejarboe@gmail.com
       </a>
       <br />
-      <a href="https://www.instagram.com/bajennings" target="_blank">
+      <a href="https://www.instagram.com/brittandthecello/" target="_blank">
         <img
           style={{ padding: "10px" }}
           height="30px"
