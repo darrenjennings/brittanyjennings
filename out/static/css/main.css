@@ -31,11 +31,10 @@ body {
 
 .title:hover {
   font-family: initial;
-  color: #66cdaa;
+  color: #635bff;
 }
 
 .body-container {
-  padding: 10px;
   max-width: 497px;
   min-width: 365px;
   text-align: center;
@@ -93,7 +92,6 @@ h1 {
 }
 
 p {
-  display: inline;
   padding: 10px;
 }
 
@@ -101,6 +99,7 @@ p {
   margin: 0 auto;
   padding: 0 25px 0;
   margin: auto;
+  max-width: 640px;
 }
 .innerblock {
   text-align: left;
@@ -109,4 +108,18 @@ p {
 
 blockquote {
   margin: 1em 20px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .wider {
+    margin: 0 -100px 0;
+  } 
+}
+
+img+img {
+  padding-bottom: 1rem;
 }

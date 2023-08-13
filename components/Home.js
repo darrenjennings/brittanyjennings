@@ -45,7 +45,7 @@ const Home = () =>
       </i>
     </div>
     <hr />
-    <audio controls autoPlay style={{ width: '100%' }}>
+    <audio controls style={{ width: '100%' }}>
       <source src="https://s3-us-west-2.amazonaws.com/brittany-jennings/brittany321.mp3" type="audio/mpeg" />
       Your browser does not support the audio element.
     </audio>
